@@ -8,4 +8,4 @@
 1. Clone this repo: https://github.com/veso266/flash-loader.git
 2. Place all the files on a web-server
 3. Put your swf in a assets
-4. Launch the player: http://192.168.88.12/Flash/Test/?swf=Nitrome/flipsideUnlocked
+4. Launch the player: https://veso266.github.io/flash-loader/?swf=Nitrome/flipsideUnlocked
