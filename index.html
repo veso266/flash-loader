@@ -184,6 +184,11 @@ for (let key in config.binary){ config.binary[key].path = config.binary[key].pat
 			}
 			else {
 				// no test stuff. just start the player
+				config.binary.push({name: config.filename,
+					path: "assets/" + config.filename + ".swf",
+						size: 99999,//todo
+						resourceType: "GAME",
+				});
 				Loader.init(config);
 				Loader.runGame((fill) => { }, (instance) => { });
 			}
